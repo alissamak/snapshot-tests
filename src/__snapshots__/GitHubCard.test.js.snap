@@ -2,59 +2,53 @@
 
 exports[`renders a snapshot 1`] = `
 <div
-  className="App pt-5"
+  className="card"
+  style={
+    Object {
+      "border": "none",
+    }
+  }
 >
   <div
-    className="col"
-  >
-    <div
-      className="row"
-      style={
-        Object {
-          "display": "flex",
-          "justifyContent": "center",
-        }
+    className="card"
+    style={
+      Object {
+        "margin": "auto",
+        "width": "18rem",
       }
+    }
+  >
+    <img
+      alt="Github profile image"
+      className="card-img-top"
+      height="200px"
+      src=""
+      width="200px"
+    />
+    <div
+      className="card-body"
     >
       <div
-        className="card"
+        className="card-title h5"
+      />
+      <p
+        className="card-text"
+      />
+      <p
+        className="card-text"
       >
-        <div
-          className="card"
-          style={
-            Object {
-              "width": "18rem",
-            }
-          }
+        <a
+          href=""
         >
-          <img
-            alt="Github profile image"
-            className="card-img-top"
-            height="200px"
-            src=""
-            width="200px"
-          />
-          <div
-            className="card-body"
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="button"
           >
-            <div
-              className="card-title h5"
-            />
-            <p
-              className="card-text"
-            >
-              <p />
-              <a
-                href=""
-              >
-                <button>
-                  Link to GitHub Profile
-                </button>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
+            Link to GitHub Profile
+          </button>
+        </a>
+      </p>
     </div>
   </div>
 </div>
